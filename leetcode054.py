@@ -50,6 +50,7 @@ class Solution:
                 j = j + 1
         return res
 
+
 if __name__ == "__main__":
     s = Solution()
     print(s.spiralOrder([[ 1, 2, 3 ],[ 4, 5, 6 ],[ 7, 8, 9 ]]))
