@@ -13,6 +13,7 @@ class Solution:
             tria = x
         return tria
 
+    
 if __name__ == "__main__":
     s = Solution()
     print(s.getRow(3))
