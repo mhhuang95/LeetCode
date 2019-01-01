@@ -11,4 +11,5 @@ class Solution:
             while ugly[i3] * 3 <= ugly[-1]: i3 += 1
             while ugly[i5] * 5 <= ugly[-1]: i5 += 1
             ugly.append(min(ugly[i2] * 2, ugly[i3] * 3, ugly[i5] * 5))
+            
         return ugly[-1]
