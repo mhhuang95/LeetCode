@@ -10,4 +10,5 @@ class Solution(object):
                 return True
             else:
                 dic[x] = 1
+                
         return False
