@@ -12,13 +12,13 @@ class Solution:
             i-=1
         return nums[i]
 
-"""
+
 
 class Solution(object):
     def findMin(self, nums):
         """
-        :type nums: List[int]
-        :rtype: int
+        type nums: List[int]
+        rtype: int
         """
         start, end = 0, len(nums) - 1
         if nums[start] < nums[end]:
@@ -33,4 +33,4 @@ class Solution(object):
             else:
                 end = mid 
                 
-        return nums[end] """
+        return nums[end]

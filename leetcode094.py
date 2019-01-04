@@ -26,4 +26,4 @@ class Solution:
         if root.right != None:
             self.recursiveTraversal(root.right, res)
 
-        return 
+        return

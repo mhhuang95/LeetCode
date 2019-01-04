@@ -1,3 +1,4 @@
+
 class Solution(object):
     #https: // github.com / qiyuangong / leetcode / blob / master / python / 040_Combination_Sum_II.py
     def combinationSum2(self, candidates, target):
@@ -31,6 +32,7 @@ class Solution(object):
                 check[str(value)] = 1
                 res.append(value)
         return res
+
 
 if __name__ == "__main__":
     s = Solution()
