@@ -11,6 +11,6 @@ class Solution(object):
             for j in range(n):
                 if A[i][j] != 0:
                     for k in range(l):
-                        if B[j][l] != 0:
-                            res[i][l] += A[i][j]*B[j][l]
+                        if B[j][k] != 0:
+                            res[i][k] += A[i][j]*B[j][k]
         return res
