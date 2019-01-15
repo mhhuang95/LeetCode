@@ -15,7 +15,7 @@ class Solution:
                 res += sign.pop()*int(s[start:i])
                 continue
             if c in '+-(':
-                sign += sign[-1]*(1,-1)[c == '-']
+                sign += sign[-1]*(1,-1)[c == '-'],
             if c == ')':
                 sign.pop()
             i+=1
