@@ -4,7 +4,7 @@
 #include <iostream>
 #include <unordered_map>
 #include <vector>
-#include "leetcode001.h"
+#include "leetcode001.cpp"
 using namespace std;
 
 int main(){

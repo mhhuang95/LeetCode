@@ -2,8 +2,6 @@
 // Created by 黄敏辉 on 2019-04-25.
 //
 
-#ifndef LEETCODEC_LEETCODE001_H
-#define LEETCODEC_LEETCODE001_H
 #include <iostream>
 #include <unordered_map>
 #include <vector>
@@ -26,6 +24,3 @@ public:
         return res;
     }
 };
-
-
-#endif //LEETCODEC_LEETCODE001_H
