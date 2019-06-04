@@ -47,6 +47,5 @@ public:
     TreeNode* sortedListToBST(ListNode* head) {
         const int len = length(head);
         return (len > 0) ? create(head, len) : nullptr;
-
     }
 };
