@@ -4,11 +4,15 @@
 #include <iostream>
 #include <unordered_map>
 #include <vector>
-#include "leetcode001.cpp"
+#include "leetcode047.cpp"
 using namespace std;
 
 int main(){
-    leetcode001 s;
-    vector <int> nums = {2,7,4,9};
-    cout << s.twoSum(nums,9)[1]<<endl;
+    Solution sol;
+    vector<int> exm;
+    exm.push_back(1);
+    exm.push_back(1);
+    exm.push_back(2);
+     sol.permuteUnique(exm)<<endl;
+    copy (v.begin(), v.end(), ostream_iterator<int> (cout, "\n"));
 }
