@@ -13,8 +13,8 @@ public:
                     l = s.length() - k;
                     if (l > 3 || l < 1)
                         continue;
-                    if (isValid(s.substr(0,i)) && isValid(s.substr(i,j-i)) && isValid(s.substr(j,k-j)) &&isValid(s.substr(k,l-k)) )
-                        res.push_back(s.substr(0,i)+'.'+s.substr(i,j-i)+'.'+s.substr(j,k-j)+'.'+s.substr(k,l-k));
+                    if (isValid(s.substr(0,i)) && isValid(s.substr(i,j-i)) && isValid(s.substr(j,k-j)) &&isValid(s.substr(k,l)) )
+                        res.push_back(s.substr(0,i)+'.'+s.substr(i,j-i)+'.'+s.substr(j,k-j)+'.'+s.substr(k,l));
                 }
             }
         }
