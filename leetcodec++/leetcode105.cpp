@@ -18,7 +18,7 @@ public:
     }
 
     TreeNode* helper(vector<int>& preorder, int i, int j, vector<int>& inorder, int k, int l){
-        if (i >= j ||k >= j)
+        if (i >= j ||k >= l)
             return NULL;
 
         auto f = find(inorder.begin() + k, inorder.begin() + l, preorder[i]);
