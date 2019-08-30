@@ -14,7 +14,7 @@ public:
 
     void push(int x) {
         if (s2.empty() || x <= getMin()) s2.push(x);
-        s1.push();
+        s1.push(x);
     }
 
     void pop() {
